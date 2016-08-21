@@ -17,6 +17,6 @@ public class GreetingServiceTest
 	public void testGetGreetingOK()
 	{
 		String greeting = greetingService.getGreeting();
-		assertEquals("CITest", greeting);
+		assertEquals("Wearsafe", greeting);
 	}
 }
