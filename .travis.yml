@@ -3,3 +3,7 @@ jdk:
   - oraclejdk8
 install: true
 script: mvn test
+deploy:
+  provider: heroku
+  api_key: 30be0a44-5740-4d6a-a240-08e1538ddc6b 
+  app: ws-citest 
