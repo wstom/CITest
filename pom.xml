@@ -6,7 +6,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>citest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>citest</name>
 	<description>Demo project for Continuous Integration</description>
