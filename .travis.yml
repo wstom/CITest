@@ -1,9 +1,8 @@
 language: java
-jdk: 
-  - oraclejdk8
+jdk:
+- oraclejdk8
 install: true
 script: mvn test
 deploy:
-  provider: heroku
-  api_key: 30be0a44-5740-4d6a-a240-08e1538ddc6b 
-  app: ws-citest 
+  api_key:
+    secure: E7+Ox+gvZNZIsen9dtf6zUgSytsOAS2Tft07U1zuFRuKRAcYnIIjXyIRkpdRf7nUPNmLuF6t2kt+eCna9JmP1TgAN/iuBejqvgUY/bKUidY4YyrJVaHyGSSqxjiKTHfCbEp52ywgIUECWBbMY56NhipW/Vpy/z8H0Wq7S6xxPt2V2SycU8VfAs6fiJGzZmS8iDtC7UHYD4QHwynXiNf6Tsqrq68faMcPvWhVIcbZaVMZ3bs0FockgDJIGuYMNHkqUd6ckBxEVUH/PVxnTl35c4YRC40RSMre9PpJx33VW2SPOxMBg5q6nCCwMe6N5Ap5DtTejGzP5Omgvv/ocgHa7hJz0hyGnpE54Seg6U/C8wsO3HzR035PW4j2xqC8CDsZ02fvAQ7gMPdupf9zeR+49f5V5OpJfKXIU1RxxySeDi+G5sNrczkDuhiSpuhMPr32jCQEgXLTLtC4HKau/7SeUv0bUq9vBsegrraHZ01EZfOgID18I2C1qph3bF0R/FiAskSjQtMryCjshZ+Jbb2TPx+M3WjknITXW0/X5xjOfVaKQBmF5B3trsrgQ0qwJ+wtFJd3OIVI+JH0MQvG+8e96y0JpDu7z5E4DgiAkSRy9DBGkyOXAJ0GXeznyrSnxZIHmPJ1EGnn2sN1QHCcNd/TwA1UNiLzrvJTN9krgM5Baj8=
