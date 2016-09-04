@@ -10,3 +10,7 @@ deploy:
   app: ws-citest
   on:
     repo: wstom/CITest
+notifications:
+  email:
+    on_success: change
+    on_failure: always
